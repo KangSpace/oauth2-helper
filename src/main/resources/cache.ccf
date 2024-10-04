@@ -1,0 +1,11 @@
+# jcs.default=
+# jcs.default.cacheattributes.MaxObjects=2048
+# jcs.default.cacheattributes.UseDisk=false
+# jcs.default.cacheattributes.useRemote=false
+
+jcs.region.oauth2TokenCache=
+jcs.region.cacheattributes.cacheType=LRU
+jcs.region.oauth2TokenCache.cacheattributes.MaxObjects=2048
+jcs.region.oauth2TokenCache.cacheattributes.UseDisk=false
+jcs.region.oauth2TokenCache.cacheattributes.useRemote=false
+
