@@ -6,7 +6,7 @@
 
     <groupId>org.kangspace.oauth2</groupId>
     <artifactId>oauth2-helper</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>oauth2-helper</name>
@@ -73,11 +73,10 @@
         <project.encoding>UTF-8</project.encoding>
         <lombok.version>1.18.24</lombok.version>
         <jsr305.version>3.0.2</jsr305.version>
-        <!--        <log4j2.version>2.17.2</log4j2.version>-->
         <slf4j.api.version>1.7.32</slf4j.api.version>
         <logback-classic.version>1.2.10</logback-classic.version>
         <junit.version>4.13.2</junit.version>
-        <dev-helper.version>0.0.3-SNAPSHOT</dev-helper.version>
+        <dev-helper.version>0.0.3</dev-helper.version>
         <commons-jcs-core.version>2.2.1</commons-jcs-core.version>
         <netty.version>4.1.108.Final</netty.version>
         <redisson.version>3.25.2</redisson.version>
