@@ -2,6 +2,12 @@
 
 ⚒️ oAuth2 utility tools. Encapsulate oAuth2 HTTP request token maintenance. ⚒️oAuth2工具类封装。封装oAuth2 Http请求Token维护。
 
+
+[![License](http://img.shields.io/:license-mit-brightgreen.svg)](https://github.com/KangSpace/oauth2-helper/blob/main/LICENSE)
+![maven](https://img.shields.io/maven-central/v/org.kangspace.oauth2/oauth2-helper)
+
+
+
 ## 功能
 
 1. 封装 oAuth2 鉴权请求
