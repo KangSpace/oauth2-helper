@@ -120,6 +120,8 @@ MpServerIpListResponse response = weChatClientCredentialsService.getApiDomainIp(
 
 ### 说明
 
+> 序列化工具使用: `Jackson (com.fasterxml.jackson)`, 可使用`@JsonProperty("")`设置属性序列化名
+
 #### 1. 定义Token类
 Token类需实现TokenResponse接口, 重写isSucceed, isInvalidToken方法，并实现clientId, clientSecret等属性
 

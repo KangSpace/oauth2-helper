@@ -1,6 +1,5 @@
 package org.kangspace.oauth2.helper.request;
 
-import com.google.gson.Gson;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.IOUtils;
@@ -179,7 +178,7 @@ public abstract class AbstractRequest<Req, Resp extends Response, T extends Toke
             if (Objects.nonNull(requestBody)) {
                 // 请求体赋值
                 ((HttpEntityEnclosingRequestBase) request)
-                        .setEntity(new StringEntity(new Gson().toJson(requestBody), StandardCharsets.UTF_8));
+                        .setEntity(new StringEntity(JsonParser.toJsonString(requestBody), StandardCharsets.UTF_8));
             }
         } else {
             throw new UnsupportedOperationException("不支持的请求方法");
